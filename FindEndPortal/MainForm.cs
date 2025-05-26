@@ -51,13 +51,17 @@ namespace FindEndPortal
                 finalZ = (secondX - firstX + firstZ * Math.Tan(-firstAngleRad) - secondZ * Math.Tan(-secondAngleRad)) / (Math.Tan(-firstAngleRad) - Math.Tan(-secondAngleRad));
                 finalX = (finalZ * Math.Tan(-firstAngleRad) - firstZ * Math.Tan(-firstAngleRad) + firstX);
 
-
-
-
-                XEndPortal.Text = Math.Round(finalX, 1).ToString();
-                ZEndPortal.Text = Math.Round(finalZ, 1).ToString();
+                if ((double.IsNaN(finalZ) || double.IsNaN(finalX)) || (double.IsInfinity(finalZ) || double.IsInfinity(finalX)) || (double.IsPositiveInfinity(finalZ) || double.IsPositiveInfinity(finalX)))
+                {
+                    throw new FormatException();
+                }
+                else
+                {
+                    XEndPortal.Text = Math.Round(finalX, 1).ToString();
+                    ZEndPortal.Text = Math.Round(finalZ, 1).ToString();
+                }
             }
-            catch (FormatException ex)
+            catch (FormatException)
             {
                 MessageBox.Show("Invalid input");
             }
@@ -70,7 +74,8 @@ namespace FindEndPortal
 
         private void HelpButton_Click(object sender, EventArgs e)
         {
-
+            HelpForm helpForm = new HelpForm();
+            helpForm.Show();
         }
     }
 }

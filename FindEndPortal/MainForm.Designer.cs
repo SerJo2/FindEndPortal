@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalculateEndPortal));
             this.XFirst = new System.Windows.Forms.TextBox();
             this.ZFirst = new System.Windows.Forms.TextBox();
             this.AngleFirst = new System.Windows.Forms.TextBox();
@@ -227,8 +228,9 @@
             this.Controls.Add(this.AngleFirst);
             this.Controls.Add(this.ZFirst);
             this.Controls.Add(this.XFirst);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CalculateEndPortal";
-            this.Text = "Form1";
+            this.Text = "End Portal Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

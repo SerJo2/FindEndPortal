@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAA
+        AAD////////////////////////////////U6OX/j725/4Kpof/J19b/////////////////////////
+        /////////////////////////////9Xj5P+cx8P/cKeo/4nBuP9hjIn/SnF1/4Knn//H1NT/////////
+        ////////////////////////2evn/57Ew/+Ju7v/dKmq/3+3s/+Kxbn/ZZKO/0pxef9VgYD/Z5GN/4Wi
+        pP/P3dr////////////e7+z/lr+9/3Ssqf+LxLn/isS5/5rV0v+Lzcz/a6ut/16QkP9kl5X/aZqZ/2mZ
+        jv9rmJD/VH5//3WXl//M2tf/g7q1/12Lmf99s6//idDG/2+zvP9ef3//PEUv/0tpbv85Uln/JCod/0Jb
+        Wf9Rho//YpqW/2GKh/9ZgYL/WYmD/4i5t/9/vcL/h8jM/1B3gf8jIRH/MTAA/0NLAP8nIAD/EwoA/xgS
+        AP8aGQD/FBIG/zZRW/9snaL/c6ii/2iTjP+U1Mz/dKOb/yopG/8hFwD/TWAu/326vf9lkZ3/KSYA/xcS
+        AP8+XWr/YpaY/z9QK/8XDgD/HhsN/0ZoZf9qnZv/bp6l/xcKAP9BSRX/h8Gy/4jS6f9Vgqb/NDsx/0pU
+        AP83QAD/HSId/zxdd/9qo7T/XY6G/zI+Ff8cFgD/T3R5/zg3J/9JXU//jdnw/16Pqf8yQED/LicA/0NB
+        AP9newH/X3IA/zErAP8ZEQD/GyQn/z5jev9knbX/RWFL/y0tHv8wJgD/P1Rl/0BXZP8tJAD/OzIA/22E
+        Lf97nl//f6+c/5DArv+GsYT/XG0A/ywgAP8dFwD/KDlE/ys9S/8mIAD/Q1EV/zYzAP8+NgD/YHIA/3+l
+        b/92m2//RFk0/yUzNP8rPEP/eqyy/6Pk0/+RwIz/VWIA/zAoAP8gHAD/KTUF/1pqFP9keAD/YHg5/5ra
+        1v9liHf/GRgA/wgAAP8BAAD/AAAA/wAAAP8xQUX/gbW4/5fU1P9edDT/Xm4A/0tbE//g4tP/l6Bq/1Vr
+        Of93qqj/EBAB/xgNAP8/PQD/Q0cA/0pVAP8zMgD/AAAA/wAAAP+Fvrr/W3dI/5OcY//d4M//////////
+        ///h4tT/i5Fc/x4YAP83LAD/YYcp/z1yOv9Cfj7/Z5Es/zUqAP8XEgD/i5Vi/93gzv//////////////
+        ///////////////////b3c7/jo9m/1JsAP9Nazv/QFMo/05lAP+Ok2X/19nI////////////////////
+        ///////////////////////////////////b3c7/dXFD/3d3SP/X2cj/////////////////////////
+        ////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
